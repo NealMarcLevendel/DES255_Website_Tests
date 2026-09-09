@@ -6,16 +6,18 @@ table.menu {
     background-color: rgb(255, 255, 255);
     word-wrap: break-word;
     list-style-image: url();
-    /*width:175px;*/
-    padding-left:35px;
-    padding-right:35px;
+    width:175px;
+    /* padding-left:40px;
+    padding-right:40px; */
 }
 a {
     color: black;
+    /* font-weight: normal; */
 }
 li {
     list-style: lower-latin;
-    padding-left: 25px;
+    /* padding-left: 25px; */
+    list-style-position: inside
 }
 li:hover {
     font-weight:bold;
@@ -24,5 +26,6 @@ li:hover {
     background-position: left center; */
     /*list-style-image: url();*/
     list-style: lower-greek;
+    list-style-position: inside
 }
 
