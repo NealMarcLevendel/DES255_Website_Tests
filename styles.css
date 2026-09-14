@@ -1,14 +1,17 @@
 table.menu {
     margin-left: auto;
     margin-right: auto;
-    border: 4px double black;
+    border: 8px ridge black;
     text-align: center;
-    background-color: rgb(221, 233, 255);
+    background-color: white;
     word-wrap: break-word;
     list-style-image: url();
     width:175px;
     /* padding-left:40px;
     padding-right:40px; */
+    line-height: 2;
+    font-size: 20px;
+    
 }
 a {
     color: black;
@@ -17,7 +20,8 @@ a {
 li {
     list-style: lower-latin;
     /* padding-left: 25px; */
-    list-style-position: inside
+    list-style-position: inside;
+    line-height: 2;
 }
 li:hover {
     font-weight:bold;
