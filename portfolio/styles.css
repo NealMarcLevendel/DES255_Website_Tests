@@ -2,6 +2,10 @@ img {
     float: right;
     width: 175px;
 }
+h1 {
+    text-align: center;
+    font-family: "EB Garamond", serif;
+}
 p.data {
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
