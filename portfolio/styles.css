@@ -64,9 +64,9 @@ li:hover {
         margin-right: auto;
     }
     img {
-        margin-left: auto;
-        margin-right: auto;
         float: none;
+        display: block;
+        margin: 0 auto;
     }
 
 }
