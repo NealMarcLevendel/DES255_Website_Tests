@@ -1,9 +1,9 @@
 table.menu {
     margin-left: auto;
     margin-right: auto;
-    border: 6px double black;
+    border: 4px double black;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(221, 233, 255);
     word-wrap: break-word;
     list-style-image: url();
     width:175px;
