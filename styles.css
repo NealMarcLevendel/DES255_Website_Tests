@@ -1,7 +1,7 @@
 table.menu {
     margin-left: auto;
     margin-right: auto;
-    border: 8px ridge black;
+    border: 8px ridge rgb(255, 0, 0);
     text-align: center;
     background-color: white;
     word-wrap: break-word;
