@@ -1,14 +1,23 @@
+img {
+    float: right;
+    width: 175px;
+}
+p.data {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
 table.menu {
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     border: 8px ridge rgb(255, 0, 0);
     text-align: center;
     background-color: white;
     word-wrap: break-word;
     list-style-image: url();
     width:175px;
-    /* padding-left:40px;
-    padding-right:40px; */
     line-height: 2;
     font-size: 20px;
     padding-bottom: 5px;
@@ -16,13 +25,18 @@ table.menu {
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
     font-weight: normal;
-    font-style: normal
+    font-style: normal;
+    
+    float: left;
+    margin-right: 10px;
 }
 a {
     color: black;
     /* font-weight: normal; */
 }
 li {
+    padding-left:10px;
+    text-align: left;
     list-style: lower-latin;
     /* padding-left: 25px; */
     list-style-position: inside;
@@ -36,5 +50,20 @@ li:hover {
     /*list-style-image: url();*/
     list-style: lower-greek;
     list-style-position: inside
+}
+
+@media screen and (max-width: 600px) {
+
+    table.menu {
+        float:none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
 }
 
