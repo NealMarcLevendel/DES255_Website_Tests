@@ -1,3 +1,12 @@
+
+th {
+    text-align: center;
+}
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 img {
     float: right;
     width: 175px;
@@ -17,10 +26,8 @@ table.menu {
     /* margin-left: auto;
     margin-right: auto; */
     border: 8px ridge rgb(255, 0, 0);
-    text-align: center;
     background-color: white;
-    word-wrap: break-word;
-    list-style-image: url();
+
     width:175px;
     line-height: 2;
     font-size: 20px;
@@ -28,7 +35,6 @@ table.menu {
     
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
-    font-weight: normal;
     font-style: normal;
     
     float: left;
@@ -39,19 +45,28 @@ a {
     /* font-weight: normal; */
 }
 li {
+    font-weight: normal;
+
     padding-left:10px;
     text-align: left;
     list-style: lower-latin;
-    /* padding-left: 25px; */
     list-style-position: inside;
     line-height: 2;
+    word-wrap: break-word;
+}
+li.selected {
+    font-weight: bold;
+
+    padding-left:10px;
+    text-align: left;
+    list-style: lower-greek;
+    list-style-position: inside;
+    line-height: 2;
+    word-wrap: break-word;
 }
 li:hover {
     font-weight:bold;
-    /* background-image: url(img/stone.png);
-    background-repeat: no-repeat;
-    background-position: left center; */
-    /*list-style-image: url();*/
+
     list-style: lower-greek;
     list-style-position: inside
 }
