@@ -12,6 +12,10 @@ table.menu {
     line-height: 2;
     font-size: 20px;
     
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal
 }
 a {
     color: black;
