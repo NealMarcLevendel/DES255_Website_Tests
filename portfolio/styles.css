@@ -15,6 +15,10 @@ h1 {
     text-align: center;
     font-family: "EB Garamond", serif;
 }
+h2 {
+    /* text-align: center; */
+    font-family: "EB Garamond", serif;
+}
 p.data {
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
@@ -54,6 +58,17 @@ li {
     line-height: 2;
     word-wrap: break-word;
 }
+.copyright {
+    text-align:center;
+    bottom: 0;
+
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
 li.selected {
     font-weight: bold;
 
