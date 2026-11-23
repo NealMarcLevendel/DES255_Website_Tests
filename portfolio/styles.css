@@ -1,23 +1,53 @@
 
+.fleuron {
+    margin-bottom: 0;
+    text-align:center;
+
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+}
+.descr {
+    font-size: 16px;
+    font-weight: 400;
+}
 th {
     text-align: center;
 }
 body {
-    max-width: 1000px;
+    max-width: 750px;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: #FAF5F2;/*F3F2FA;*/
+}
+hr {
+    /* max-width: 175px; */
+    border-top: 3px single black;
 }
 img {
-    float: right;
-    width: 175px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 250px; */
 }
 h1 {
     text-align: center;
     font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    margin-bottom: 0px;
 }
 h2 {
+    margin-top: 0px;
+    /* margin-bottom: 0px; */
     text-align: center;
     font-family: "EB Garamond", serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    
 }
 p.data {
     font-family: "EB Garamond", serif;
@@ -66,7 +96,7 @@ li {
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 li.selected {
