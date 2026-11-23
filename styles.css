@@ -1,4 +1,10 @@
 
+.center {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    place-items: center;
+}
 .fleuron {
     margin-bottom: 0;
     text-align:center;
@@ -78,10 +84,10 @@ a {
     color: black;
     /* font-weight: normal; */
 }
-li {
+li.menu {
     font-weight: normal;
 
-    padding-left:10px;
+    padding-left:0px;
     text-align: left;
     list-style: lower-latin;
     list-style-position: inside;
@@ -98,8 +104,13 @@ li {
     font-style: normal;
     font-size: 16px;
 }
-
-li.selected {
+li.no-bullet {
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+li.menu.selected {
     font-weight: bold;
 
     padding-left:10px;
@@ -109,12 +120,18 @@ li.selected {
     line-height: 2;
     word-wrap: break-word;
 }
-li:hover {
+li.menu:hover {
     font-weight:bold;
 
     list-style: lower-greek;
     list-style-position: inside
 }
+.arch {
+  min-height: 0;
+  padding: calc(24*var(--k)) calc(6*var(--k)) calc(46*var(--k));
+}
+.arch > :first-child { margin-top: 0; }
+.arch > :last-child  { margin-bottom: 0; }
 
 @media screen and (max-width: 600px) {
 
